@@ -1,0 +1,96 @@
+
+
+
+/* Hero Section */
+.hero-section {
+    position: relative;
+    z-index: -1;
+    background-image: url('../../public/data/yashi/main.jpg');
+    height: 70vh; /* Full viewport height */
+    width: 100vw; /* Full viewport width */
+    background-size: cover;
+    background-position: center;
+    margin: 0; /* Remove margin */
+    overflow: hidden; /* Ensure the image does not overflow */
+}
+
+
+.hero-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    z-index: 1; /* Ensure the content is on top of the background */
+}
+
+.hero-content h1 {
+    font-size: 4rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+}
+
+/* Image Grid */
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.image-item {
+    text-align: center;
+    padding: 15px;
+    transition: transform 0.3s ease-in-out;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1),
+                0 6px 6px rgba(0, 0, 0, 0.1);
+}
+
+.image-item img {
+    width: 80%;
+    max-width: 500px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15),
+                0 8px 10px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease;
+    margin: auto;
+}
+
+.image-item:hover {
+    transform: translateY(-10px);
+}
+
+.image-item p {
+    margin-top: 20px;
+    font-size: 1.15rem;
+    font-weight: 400;
+    color: #333;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 15px;
+    border-radius: 12px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+    line-height: 1.8;
+    text-align: center;
+    border: 1px solid #ddd;
+    font-family: 'Georgia', serif;
+    transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.image-item p:hover {
+    background: rgba(255, 255, 255, 1);
+    transform: translateY(-5px);
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.3);
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #918c8c;
+    color: black;
+}

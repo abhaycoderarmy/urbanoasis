@@ -1,0 +1,36 @@
+.react-datepicker {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    background-color: #f0f8ff; /* Light background for the date picker */
+  }
+  
+  .react-datepicker__triangle {
+    display: none; /* Hide the triangle */
+  }
+  
+  .react-datepicker__header {
+    background-color: #4a90e2; /* Header background color */
+    color: white; /* Header text color */
+    border: none; /* Remove border */
+  }
+  
+  .react-datepicker__day {
+    border-radius: 50%; /* Make days circular */
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition */
+  }
+  
+  .react-datepicker__day:hover {
+    background-color: #4a90e2; /* Change background on hover */
+    color: white; /* Change text color on hover */
+  }
+  
+  .react-datepicker__day--selected {
+    background-color: #e94e77; /* Selected day color */
+    color: white; /* Selected day text color */
+  }
+  
+  .custom-datepicker {
+    z-index: 1000; /* Ensure the date picker appears above other elements */
+  }

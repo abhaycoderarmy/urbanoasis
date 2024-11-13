@@ -1,0 +1,81 @@
+/* Navbar2.css */
+.navbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: transparent;
+    z-index: 10;
+  }
+  
+  .navbar-logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo-image {
+    width: 5rem;
+    height: 5rem;
+  }
+  
+  .navbar-title {
+    font-weight: bold;
+    font-size: 1.25rem;
+  }
+  
+  .navbar-links {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    gap: 1.75rem;
+    font-weight: bold;
+  }
+  
+  .link {
+    text-decoration: none;
+    transition: color 0.2s;
+  }
+  
+  .link:hover {
+    text-decoration: underline;
+  }
+  
+  .navbar-auth {
+    display: flex;
+    align-items: center;
+    margin-left: 1.25rem;
+  }
+  
+  .auth-icon {
+    padding: 0 1rem;
+    transition: color 0.2s;
+  }
+  
+  .auth-text {
+    font-weight: bold;
+    margin-left: 0.5rem;
+  }
+  
+  .auth-button {
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+  }
+  
+  .icon {
+    font-size: 1.25rem;
+  }
+  
+  .text-black {
+    color: black;
+  }
+  
+  .text-white {
+    color: white;
+  }
+  

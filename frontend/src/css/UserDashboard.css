@@ -1,0 +1,25 @@
+.user-dashboard {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+  }
+  
+  .user-info {
+    margin-bottom: 20px;
+  }
+  
+  .user-info p {
+    margin: 5px 0;
+  }
+  
+  .user-bookings table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .user-bookings th,
+  .user-bookings td {
+    padding: 8px;
+    border: 1px solid #ddd;
+    text-align: left;
+  }
+   
